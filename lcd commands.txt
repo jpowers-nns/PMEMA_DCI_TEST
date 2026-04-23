@@ -1,0 +1,27 @@
+Power On Command:
+Display Power On			0x2F	0010 1111
+LCD Bias 1/9				0xA2	1010 0010
+All Pixels On Cancel			0xA4	1010 0100
+Display On				0xAF	1010 1111
+Driver On				0xE7	1110 0111
+
+Set Contrast Command:
+Set EVR Mode				0x81	1000 0001
+Set EVR Register			0x04	0000 0100
+
+Orientation Normal Command:
+Segment Driver Normal			0xA1	1010 0001
+Common Driver Normal			0xC0	1100 0000
+
+Display Normal Mode Command:
+Display Normal Mode			0xA6	1010 0110
+
+
+
+
+
+Set Page Command:
+Initial Display Line Reset		0x40	0100 0000
+Page Address Set			0xB2	1011 0010
+Column Address High Reset		0x10	0001 0000
+Column Address Low Reset		0x00	0000 0000
